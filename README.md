@@ -22,7 +22,7 @@ Pick the build that matches your device. If you are not sure, use **Universal**.
 | **ARM64** (recommended) | 64-bit Android phones/tablets, most devices since 2017 | 1.0.0 | 101.53 MB | [`cocce-arm64-v8a.apk`](https://github.com/Hilpolith/COCCE-APP-RELEASES/releases/latest/download/cocce-arm64-v8a.apk) |
 | **Universal** | Any Android device (contains all ABIs) | 1.0.0 | 196.96 MB | [`cocce-universal.apk`](https://github.com/Hilpolith/COCCE-APP-RELEASES/releases/latest/download/cocce-universal.apk) |
 | **ARM** (32-bit) | Older 32-bit ARM devices | 1.0.0 | 119.43 MB | [`cocce-armeabi-v7a.apk`](https://github.com/Hilpolith/COCCE-APP-RELEASES/releases/latest/download/cocce-armeabi-v7a.apk) |
-| **x86_64** | Emulators and Intel-based devices | 1.0.0 | 98.14 MB | [`cocce-x86_64.apk`](https://github.com/Hilpolith/COCCE-APP-RELEASES/releases/latest/download/cocce-x86_64.apk) |
+| **x86_64** | Emulators and Intel-based devices | 1.0.0 | 98.15 MB | [`cocce-x86_64.apk`](https://github.com/Hilpolith/COCCE-APP-RELEASES/releases/latest/download/cocce-x86_64.apk) |
 
 These `releases/latest/download/...` links are **stable**: they always serve the
 newest published release, so they can be printed in a QR code or hard-coded in a
@@ -46,10 +46,10 @@ sha256sum cocce-arm64-v8a.apk
 Expected checksums for the current release:
 
 ```
-3FF3B12A45A98F72ED88A25E5B5DDE6BC05DCAB72CC281EA57FBF22FFB909D8A  cocce-arm64-v8a.apk
-80D03FC9D7FAA33E4877EC8569A7400B898964FBCC7DA1D72E441BF79767FAA4  cocce-universal.apk
-3605C5CA6CCD81C0A9FDACAA1324763A3F62B75411904851A00E7B7626EE7AE5  cocce-armeabi-v7a.apk
-3BF7CAFE786C44AB394B4C0DF0E00C6EE813896432970B53EB3CB664EC6FC367  cocce-x86_64.apk
+B5AA84B2462302FF6DC5F00BD28926D5C8F649848EEF8FC4E9F8C815DE9E6010  cocce-arm64-v8a.apk
+83FB351D2269334282F81EBD3216A5D00C77E566F7608944A127EA1EE911460B  cocce-universal.apk
+B635D51ACB01275F43ABA538E3B10E34E3C2F4DE4C48E0685746AE84FC5CD7BC  cocce-armeabi-v7a.apk
+49B0B455FBF525FE7B5CC42890B91153C1F2BB1989BEDAB5E20F81D67C837A9F  cocce-x86_64.apk
 ```
 
 Every APK is signed with the same release certificate, so newer versions install
