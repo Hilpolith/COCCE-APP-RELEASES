@@ -19,10 +19,10 @@ Pick the build that matches your device. If you are not sure, use **Universal**.
 
 | Variant | For | Version | Size | Download |
 | --- | --- | --- | --- | --- |
-| **ARM64** (recommended) | 64-bit Android phones/tablets, most devices since 2017 | 1.0.0 | 101.53 MB | [`cocce-arm64-v8a.apk`](https://github.com/Hilpolith/COCCE-APP-RELEASES/releases/latest/download/cocce-arm64-v8a.apk) |
-| **Universal** | Any Android device (contains all ABIs) | 1.0.0 | 196.96 MB | [`cocce-universal.apk`](https://github.com/Hilpolith/COCCE-APP-RELEASES/releases/latest/download/cocce-universal.apk) |
-| **ARM** (32-bit) | Older 32-bit ARM devices | 1.0.0 | 119.43 MB | [`cocce-armeabi-v7a.apk`](https://github.com/Hilpolith/COCCE-APP-RELEASES/releases/latest/download/cocce-armeabi-v7a.apk) |
-| **x86_64** | Emulators and Intel-based devices | 1.0.0 | 98.15 MB | [`cocce-x86_64.apk`](https://github.com/Hilpolith/COCCE-APP-RELEASES/releases/latest/download/cocce-x86_64.apk) |
+| **ARM64** (recommended) | 64-bit Android phones/tablets, most devices since 2017 | 1.0.0 | 101.57 MB | [`cocce-arm64-v8a.apk`](https://github.com/Hilpolith/COCCE-APP-RELEASES/releases/latest/download/cocce-arm64-v8a.apk) |
+| **Universal** | Any Android device (contains all ABIs) | 1.0.0 | 197.08 MB | [`cocce-universal.apk`](https://github.com/Hilpolith/COCCE-APP-RELEASES/releases/latest/download/cocce-universal.apk) |
+| **ARM** (32-bit) | Older 32-bit ARM devices | 1.0.0 | 119.47 MB | [`cocce-armeabi-v7a.apk`](https://github.com/Hilpolith/COCCE-APP-RELEASES/releases/latest/download/cocce-armeabi-v7a.apk) |
+| **x86_64** | Emulators and Intel-based devices | 1.0.0 | 98.19 MB | [`cocce-x86_64.apk`](https://github.com/Hilpolith/COCCE-APP-RELEASES/releases/latest/download/cocce-x86_64.apk) |
 
 These `releases/latest/download/...` links are **stable**: they always serve the
 newest published release, so they can be printed in a QR code or hard-coded in a
@@ -46,10 +46,10 @@ sha256sum cocce-arm64-v8a.apk
 Expected checksums for the current release:
 
 ```
-E5E6F2FF0BD3500F94D3CFF648F56790591229554E773AA7CDB7C2390DE4DA72  cocce-arm64-v8a.apk
-BCB1F0DE77324EFFEDC79152D69795559D81EB0EA1AA1FAAF57F40D9EF2696B7  cocce-universal.apk
-D2896814DC3D559C02ADFE57A0DA63D41094004E9D356925E10C57BB9CACFC6A  cocce-armeabi-v7a.apk
-95B289A21B1A6F569AB954D33AD0D27FC00D985D678DACCDF8C9DBAECA7B143D  cocce-x86_64.apk
+344A90D57E9F5342EB67D8C357CD0891B30424C3D76AEF5DED191A7BAD2AFBBC  cocce-arm64-v8a.apk
+3807E732718369D8AC92EBDCBABC14217C77F3E842F834FC29E3D9909FF16480  cocce-universal.apk
+111A38228B49A4ABBF9E1C21CD2ACC45E22669719713F37AB66EEE6C3916C03B  cocce-armeabi-v7a.apk
+51FDE50DCCD7F023A2A632C619D6993E9D178E42A9B507342F26FE758A9E98AB  cocce-x86_64.apk
 ```
 
 Every APK is signed with the same release certificate, so newer versions install
