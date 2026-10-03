@@ -4,7 +4,7 @@ Public **APK distribution** for **COCCE** (Create, Share, Shop & Earn).
 
 This repository intentionally contains **no source code**. The APKs are built from the private COCCE source tree and signed with the COCCE release key.
 
-Latest release: **COCCE 1.0.9** (`v1.0.9`), built from source commit `8ce29e7a295528e1aa0850236670b3034712d982`. This release refreshes the first Feed and Shop pages after returning to the app, shows all TV presenter credits, keeps Live Chat scrolling stable during refresh, and includes the onboarding-upload and image-dialog fixes. The standard build includes COCCE TV without TV-specific build-time Dart defines; sign-in, server-side row-level security, and administrator checks remain in place. Earlier releases remain available unchanged.
+Latest release: **COCCE 1.0.10** (`v1.0.10`), built from source commit `a63b026ab36903c97040c0630aa21ca9287281aa`. This release loads valid cached Feed and Shop items immediately while the existing ORIGIN CORE-ranked server refresh continues in the background. An empty server response preserves the valid cache, refreshed candidates replace stale cache-only entries, and the first item rotates across up to three valid candidates on later launches. No ORIGIN CORE scoring or ranking logic was changed. The previous 1.0.9 fixes remain, including multi-presenter rendering, non-blocking comment refresh, Feed/Shop background refresh, the onboarding folder fix, and the BeautyCamera dialog fix. The standard build includes COCCE TV without TV-specific build-time Dart defines; sign-in, server-side row-level security, and administrator checks remain in place. Earlier releases remain available unchanged.
 
 - Website / download page: **https://cocce-super-app-222ac.web.app**
 - Privacy policy: **https://cocce-super-app-222ac.web.app/privacy-policy.html**
@@ -19,22 +19,22 @@ Choose the build that matches your device. If you are not sure, use **Universal*
 
 | Variant | For | Version | Size (MiB) | Download |
 | --- | --- | --- | ---: | --- |
-| **ARM64** (recommended) | 64-bit Android phones/tablets, most devices since 2017 | 1.0.9 | 105.52 | [`cocce-arm64-v8a.apk`](https://github.com/Hilpolith/COCCE-APP-RELEASES/releases/download/v1.0.9/cocce-arm64-v8a.apk) |
-| **Universal** | Any Android device (contains all supported ABIs) | 1.0.9 | 234.94 | [`cocce-universal.apk`](https://github.com/Hilpolith/COCCE-APP-RELEASES/releases/download/v1.0.9/cocce-universal.apk) |
-| **ARMv7** (32-bit) | Older 32-bit ARM devices | 1.0.9 | 122.96 | [`cocce-armeabi-v7a.apk`](https://github.com/Hilpolith/COCCE-APP-RELEASES/releases/download/v1.0.9/cocce-armeabi-v7a.apk) |
-| **x86_64** | Emulators and Intel-based devices | 1.0.9 | 100.43 | [`cocce-x86_64.apk`](https://github.com/Hilpolith/COCCE-APP-RELEASES/releases/download/v1.0.9/cocce-x86_64.apk) |
+| **ARM64** (recommended) | 64-bit Android phones/tablets, most devices since 2017 | 1.0.10 | 105.53 | [`cocce-arm64-v8a.apk`](https://github.com/Hilpolith/COCCE-APP-RELEASES/releases/download/v1.0.10/cocce-arm64-v8a.apk) |
+| **Universal** | Any Android device (contains all supported ABIs) | 1.0.10 | 234.96 | [`cocce-universal.apk`](https://github.com/Hilpolith/COCCE-APP-RELEASES/releases/download/v1.0.10/cocce-universal.apk) |
+| **ARMv7** (32-bit) | Older 32-bit ARM devices | 1.0.10 | 122.97 | [`cocce-armeabi-v7a.apk`](https://github.com/Hilpolith/COCCE-APP-RELEASES/releases/download/v1.0.10/cocce-armeabi-v7a.apk) |
+| **x86_64** | Emulators and Intel-based devices | 1.0.10 | 100.43 | [`cocce-x86_64.apk`](https://github.com/Hilpolith/COCCE-APP-RELEASES/releases/download/v1.0.10/cocce-x86_64.apk) |
 
 Requirements: **Android 7.0 (API 24) or newer**. Package: `com.cocce.cocce_super_app`.
 
 ## Verify a download
 
-Expected SHA-256 checksums for the four v1.0.9 APKs:
+Expected SHA-256 checksums for the four v1.0.10 APKs:
 
 ```text
-bae284a8bc33b14e9ed353d0a960390c702225b00e9b65211690c9bcb1c32604  cocce-arm64-v8a.apk
-1a61d880a79fdea10de67fdf3ab74c65bbbe801454d77b1e8460f1750403db2a  cocce-armeabi-v7a.apk
-ae1073942298978e5d34c0ee1033e2321b4711b52442b0e3e248d2ef249da7e3  cocce-universal.apk
-02eae998906c9d69f96b843f8d68d09a4696dae157f1dc2c91ccc53dabcc280c  cocce-x86_64.apk
+9b1c39af41e926d73ef9045a10c9488113ab7a70309c2c5c9c3ef4e2b5c90f2f  cocce-arm64-v8a.apk
+c23636ca795cc8887d7bf71ef2bc50f7fb375faa6cf62835942a7b1ec1f7314f  cocce-armeabi-v7a.apk
+a55eff842837d0b615ad9f77702db926b48a2736d830bc14b50f1393cd90c737  cocce-universal.apk
+8931e6b0390cc6c5e5c090becebb4dd7fa6adb993b9c6f4ae84ea7ab192b72cd  cocce-x86_64.apk
 ```
 
 All four APKs use the same release certificate:
