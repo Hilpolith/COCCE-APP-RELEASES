@@ -1,10 +1,17 @@
 # COCCE — Android releases
 
+![COCCE 1.0.12](https://img.shields.io/badge/COCCE-1.0.12-2563EB?style=for-the-badge&logo=android&logoColor=white)
+![Free download](https://img.shields.io/badge/Download-Free-16A34A?style=for-the-badge)
+![Android 7.0+](https://img.shields.io/badge/Android-7.0%2B-0EA5E9?style=for-the-badge&logo=android&logoColor=white)
+
 Public **APK distribution** for **COCCE** (Create, Share, Shop & Earn).
 
-This repository intentionally contains **no source code**. The APKs are built from the private COCCE source tree and signed with the COCCE release key.
+This repository contains the downloadable Android releases, not the app source code. The APKs are built from the private COCCE source tree and signed with the COCCE release key.
 
-Latest release: **COCCE 1.0.11** (`v1.0.11`), built from source commit `313b7c7220c003efec11fe09d17474ed097ab06f`. This release advances Feed and Shop through persistent unseen IDs in ORIGIN-ranked candidate batches after a long resume, app reopen, or pull refresh; Shop evaluates three ranked pages while continuing to show one visible page. During a live TV airing, presenter credits and the program mentions list are displayed separately. The previous v1.0.10 cache-first improvements remain: valid cached Feed and Shop items load immediately while the existing ORIGIN-ranked server refresh continues; an empty server response preserves the valid cache, refreshed candidates replace stale cache-only entries, and first-item rotation covers up to three valid candidates on later launches. The v1.0.9 fixes also remain, including multi-presenter rendering, non-blocking comment refresh, Feed/Shop background refresh, the onboarding folder fix, and the BeautyCamera dialog fix. The standard build includes COCCE TV without TV-specific build-time Dart defines; sign-in, server-side row-level security, and administrator checks remain in place. Earlier releases remain available unchanged.
+**COCCE 1.0.12** improves presenter information in COCCE TV. When a schedule lists multiple presenters, their names are matched to the right profiles more reliably. Multi-word names stay intact, and schedule credits can refresh when program details change. COCCE TV is included in the regular app—there is nothing extra to install. Previous releases remain available unchanged.
+
+Built from private source commit [`81373a7bd3c5307f16207b19315599a7d4cc36a9`](https://github.com/Hilpolith/COCCE_Super_App/commit/81373a7bd3c5307f16207b19315599a7d4cc36a9).
+
 - Website / download page: **https://cocce-super-app-222ac.web.app**
 - Privacy policy: **https://cocce-super-app-222ac.web.app/privacy-policy.html**
 - All releases: https://github.com/Hilpolith/COCCE-APP-RELEASES/releases
@@ -14,26 +21,26 @@ Latest release: **COCCE 1.0.11** (`v1.0.11`), built from source commit `313b7c72
 
 ## Download
 
-Choose the build that matches your device. If you are not sure, use **Universal**.
+Choose the build that matches your device. If you are not sure, use **Universal**. Most Android phones and tablets use **ARM64**.
 
 | Variant | For | Version | Version code | Size (MiB) | Download |
 | --- | --- | ---: | ---: | ---: | --- |
-| **ARM64** (recommended) | 64-bit Android phones/tablets, most devices since 2017 | 1.0.11 | 2013 | 105.54 | [`cocce-arm64-v8a.apk`](https://github.com/Hilpolith/COCCE-APP-RELEASES/releases/download/v1.0.11/cocce-arm64-v8a.apk) |
-| **Universal** | Any Android device (contains all supported ABIs) | 1.0.11 | 13 | 234.97 | [`cocce-universal.apk`](https://github.com/Hilpolith/COCCE-APP-RELEASES/releases/download/v1.0.11/cocce-universal.apk) |
-| **ARMv7** (32-bit) | Older 32-bit ARM devices | 1.0.11 | 1013 | 122.97 | [`cocce-armeabi-v7a.apk`](https://github.com/Hilpolith/COCCE-APP-RELEASES/releases/download/v1.0.11/cocce-armeabi-v7a.apk) |
-| **x86_64** | Emulators and Intel-based devices | 1.0.11 | 4013 | 100.44 | [`cocce-x86_64.apk`](https://github.com/Hilpolith/COCCE-APP-RELEASES/releases/download/v1.0.11/cocce-x86_64.apk) |
+| **ARM64** (recommended) | 64-bit Android phones/tablets, most devices since 2017 | 1.0.12 | 2014 | 105.54 | [`cocce-arm64-v8a.apk`](https://github.com/Hilpolith/COCCE-APP-RELEASES/releases/download/v1.0.12/cocce-arm64-v8a.apk) |
+| **Universal** | Any Android device (contains all supported ABIs) | 1.0.12 | 14 | 207.73 | [`cocce-universal.apk`](https://github.com/Hilpolith/COCCE-APP-RELEASES/releases/download/v1.0.12/cocce-universal.apk) |
+| **ARMv7** (32-bit) | Older 32-bit ARM devices | 1.0.12 | 1014 | 109.36 | [`cocce-armeabi-v7a.apk`](https://github.com/Hilpolith/COCCE-APP-RELEASES/releases/download/v1.0.12/cocce-armeabi-v7a.apk) |
+| **x86_64** | Emulators and Intel-based devices | 1.0.12 | 4014 | 86.81 | [`cocce-x86_64.apk`](https://github.com/Hilpolith/COCCE-APP-RELEASES/releases/download/v1.0.12/cocce-x86_64.apk) |
 
 Requirements: **Android 7.0 (API 24) or newer**. Package: `com.cocce.cocce_super_app`.
 
 ## Verify a download
 
-Expected SHA-256 checksums for the four v1.0.11 APKs:
+Expected SHA-256 checksums for the four v1.0.12 APKs:
 
 ```text
-2e865089c1c3e2e3626165f5ced3829d8a29df4d4ae4c956119c181dfc3ef183  cocce-arm64-v8a.apk
-3eee300386fa4dc74f60637671b28a0fab69b9ad19e3100319697ba57b93627c  cocce-armeabi-v7a.apk
-c3eda5956886b07892d7c6a636e91b9f6d79e6d3e37021aa902df9becc32bfd1  cocce-universal.apk
-ed3c78917ee80451b4264903165c43e2a38e247adf140b23b8b4bcb979557037  cocce-x86_64.apk
+fd44321befdef1707ee4bac12854988abdc83bde19f9358e6f2ac3c5268397d9  cocce-arm64-v8a.apk
+ab14d59fc70df66df2ecbcf47aad991dd121d30eab44c4b2ecf0be0a3a47212e  cocce-armeabi-v7a.apk
+9b7cfa99ae74feb9f069c1d4b380fc1c6be5d690d1e17f603e8261ca2388fc9d  cocce-universal.apk
+edfe7f1cfaa8de7a1e01e35453c6e15a302d16156a17880ff1cb2f652f9cbc1f  cocce-x86_64.apk
 ```
 
 All four APKs use the same release certificate:
