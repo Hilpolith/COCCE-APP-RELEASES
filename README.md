@@ -1,7 +1,7 @@
 # COCCE — Android releases
 
-![COCCE 1.0.13](https://img.shields.io/badge/COCCE-1.0.13-2563EB?style=for-the-badge&logo=android&logoColor=white)
-![TV scheduling made easier](https://img.shields.io/badge/TV_scheduling-Made_easier-7C3AED?style=for-the-badge)
+![COCCE 1.0.18](https://img.shields.io/badge/COCCE-1.0.18-ED0747?style=for-the-badge&logo=android&logoColor=white)
+![Cleaner navigation](https://img.shields.io/badge/Cleaner-navigation-665BCA?style=for-the-badge)
 ![Free download](https://img.shields.io/badge/Download-Free-16A34A?style=for-the-badge)
 ![Android 7.0+](https://img.shields.io/badge/Android-7.0%2B-0EA5E9?style=for-the-badge&logo=android&logoColor=white)
 
@@ -9,11 +9,11 @@ Public **APK distribution** for **COCCE** (Create, Share, Shop & Earn).
 
 This repository contains the downloadable Android releases, not the app source code. The APKs are built from the private COCCE source tree and signed with the COCCE release key.
 
-## What’s new in COCCE 1.0.13
+## What’s new in COCCE 1.0.18
 
-Adding the next programme to a COCCE TV channel is now easier. Choose **Add Next**, and COCCE checks the latest programme already scheduled on that channel, then lines the new one up right after it—even if the schedule list is filtered or has more than one page. You don’t need to work out the time yourself. Earlier releases remain available unchanged.
+The navigation bar and quick buttons now have a lighter look, with less blur and shadow. Your usual buttons and features are still there — the screen just feels less visually busy. Earlier releases remain available unchanged.
 
-Built from source commit [`5cb358ed3d35f6c20ffba1ef0782f9d9434b2227`](https://github.com/Hilpolith/COCCE_Super_App/commit/5cb358ed3d35f6c20ffba1ef0782f9d9434b2227).
+Built from source commit [`0f5662db39f1c9b8bb7712e3f094d2b6f371b6a3`](https://github.com/Hilpolith/COCCE_Super_App/commit/0f5662db39f1c9b8bb7712e3f094d2b6f371b6a3).
 
 - Website / download page: **https://cocce-super-app-222ac.web.app**
 - Privacy policy: **https://cocce-super-app-222ac.web.app/privacy-policy.html**
@@ -24,26 +24,26 @@ Built from source commit [`5cb358ed3d35f6c20ffba1ef0782f9d9434b2227`](https://gi
 
 ## Download
 
-Choose the build that matches your device. If you are not sure, use **Universal**. Most Android phones and tablets use **ARM64**.
+Choose the build that matches your device. If you are not sure, use **Universal**. Most newer Android phones and tablets use **ARM64**.
 
 | Variant | For | Version | Size (MiB) | Download |
 | --- | --- | ---: | ---: | --- |
-| **ARM64** (recommended) | 64-bit Android phones/tablets, most devices since 2017 | 1.0.13 | 105.54 | [`cocce-arm64-v8a.apk`](https://github.com/Hilpolith/COCCE-APP-RELEASES/releases/download/v1.0.13/cocce-arm64-v8a.apk) |
-| **Universal** | Any Android device (contains all supported ABIs) | 1.0.13 | 207.73 | [`cocce-universal.apk`](https://github.com/Hilpolith/COCCE-APP-RELEASES/releases/download/v1.0.13/cocce-universal.apk) |
-| **ARMv7** (32-bit) | Older 32-bit ARM devices | 1.0.13 | 109.36 | [`cocce-armeabi-v7a.apk`](https://github.com/Hilpolith/COCCE-APP-RELEASES/releases/download/v1.0.13/cocce-armeabi-v7a.apk) |
-| **x86_64** | Emulators and Intel-based devices | 1.0.13 | 86.81 | [`cocce-x86_64.apk`](https://github.com/Hilpolith/COCCE-APP-RELEASES/releases/download/v1.0.13/cocce-x86_64.apk) |
+| **ARM64** (recommended) | Most newer 64-bit Android phones and tablets | 1.0.18 | 105.55 | [`cocce-1.0.18-arm64.apk`](https://github.com/Hilpolith/COCCE-APP-RELEASES/releases/download/v1.0.18/cocce-1.0.18-arm64.apk) |
+| **Universal** | Supported Android devices; easiest if unsure (larger download) | 1.0.18 | 203.00 | [`cocce-1.0.18-universal.apk`](https://github.com/Hilpolith/COCCE-APP-RELEASES/releases/download/v1.0.18/cocce-1.0.18-universal.apk) |
+| **ARMv7** (32-bit) | Older 32-bit ARM Android devices | 1.0.18 | 122.99 | [`cocce-1.0.18-armv7.apk`](https://github.com/Hilpolith/COCCE-APP-RELEASES/releases/download/v1.0.18/cocce-1.0.18-armv7.apk) |
+| **x86_64** | Android emulators and compatible Intel-based devices | 1.0.18 | 100.46 | [`cocce-1.0.18-x86_64.apk`](https://github.com/Hilpolith/COCCE-APP-RELEASES/releases/download/v1.0.18/cocce-1.0.18-x86_64.apk) |
 
 Requirements: **Android 7.0 (API 24) or newer**. Package: `com.cocce.cocce_super_app`.
 
 ## Verify a download
 
-Optional SHA-256 checksums for the four v1.0.13 APKs:
+Expected SHA-256 checksums for the four v1.0.18 APKs:
 
 ```text
-c450922dc3b49f623b4cb944bf520cd461112de199ce7292346c6b2333555a3f  cocce-arm64-v8a.apk
-4430dafc6547bb20a7d1e6ce6af24939f4f34afab676d9bc99e892647d48e991  cocce-armeabi-v7a.apk
-83f1d47ef4976053f98405ab4d00a6f317b8777a91c2649d5ccb2494107ef3ff  cocce-universal.apk
-65bf120330428d545fd882c96c225ea1e5c0f2b62af385be7e633f0f2cf1a4c2  cocce-x86_64.apk
+173f8624d00d2baaf03a2a4d663959268015f7395ccb56bc039cfe6837e5f867  cocce-1.0.18-arm64.apk
+47d56dcf8ad248c18ba8fb42c3a687aea0483519d73fd219554a8e4dda239c0f  cocce-1.0.18-armv7.apk
+3bfc1a23eb66452981f7d46cc70aa6b56e3b65799478c04264092721d610b620  cocce-1.0.18-universal.apk
+bd51e52a75e298f9be012771edb3615eaa0d0b5bd04d96e4a78be2a07e6c0c22  cocce-1.0.18-x86_64.apk
 ```
 
 All four APKs use the same release certificate:
