@@ -1,19 +1,21 @@
 # COCCE — Android releases
 
-![COCCE 1.0.19](https://img.shields.io/badge/COCCE-1.0.19-ED0747?style=for-the-badge&logo=android&logoColor=white)
-![Softer Shop look](https://img.shields.io/badge/Shop-Softer%20look-665BCA?style=for-the-badge)
+![COCCE 1.0.20](https://img.shields.io/badge/COCCE-1.0.20-ED0747?style=for-the-badge&logo=android&logoColor=white)
 ![Free download](https://img.shields.io/badge/Download-Free-16A34A?style=for-the-badge)
 ![Android 7.0+](https://img.shields.io/badge/Android-7.0%2B-0EA5E9?style=for-the-badge&logo=android&logoColor=white)
 
 Public **APK distribution** for **COCCE** (Create, Share, Shop & Earn).
 
-This repository contains the downloadable Android releases, not the app source code. The APKs are built from the private COCCE source tree and signed with the COCCE release key.
+This repository contains downloadable Android releases, not the app source code. The APKs are built from the private COCCE source tree and signed with the COCCE release key.
 
-## What’s new in COCCE 1.0.19
+## What’s new in COCCE 1.0.20
 
-The Shop screen's top bar and quick buttons now look lighter and less busy. Your familiar filters and buttons are still there, and selected filters remain easy to spot. Earlier releases remain available unchanged.
+- All **24 in-app languages** are now selectable. English and Kiswahili remain the original catalogs; the 22 additional catalogs are machine-generated and have **not** been human-reviewed. Some wording may be inaccurate. Please send corrections to **coccesuperapp@gmail.com**.
+- The previous profile-settings dialog layout is restored, with text and titles centered.
+- Direct and group chat notification replies have improved message metadata.
+- Earlier releases, including v1.0.19, remain available unchanged.
 
-Built from source commit [`d53505834293b471938d414fd1719b182df2d597`](https://github.com/Hilpolith/COCCE_Super_App/commit/d53505834293b471938d414fd1719b182df2d597).
+Built from private source commit [`777bf6f3ac03440541bb5dd7e87001a2a55b0fa1`](https://github.com/Hilpolith/COCCE_Super_App/commit/777bf6f3ac03440541bb5dd7e87001a2a55b0fa1).
 
 - Website / download page: **https://cocce-super-app-222ac.web.app**
 - Privacy policy: **https://cocce-super-app-222ac.web.app/privacy-policy.html**
@@ -28,25 +30,25 @@ Choose the build that matches your device. If you are not sure, use **Universal*
 
 | Variant | For | Version | Size (MiB) | Download |
 | --- | --- | ---: | ---: | --- |
-| **ARM64** (recommended) | Most newer 64-bit Android phones and tablets | 1.0.19 | 105.55 | [`cocce-1.0.19-arm64.apk`](https://github.com/Hilpolith/COCCE-APP-RELEASES/releases/download/v1.0.19/cocce-1.0.19-arm64.apk) |
-| **Universal** | Supported Android devices; easiest if unsure (larger download) | 1.0.19 | 235.02 | [`cocce-1.0.19-universal.apk`](https://github.com/Hilpolith/COCCE-APP-RELEASES/releases/download/v1.0.19/cocce-1.0.19-universal.apk) |
-| **ARMv7** (32-bit) | Older 32-bit ARM Android devices | 1.0.19 | 122.99 | [`cocce-1.0.19-armv7.apk`](https://github.com/Hilpolith/COCCE-APP-RELEASES/releases/download/v1.0.19/cocce-1.0.19-armv7.apk) |
-| **x86_64** | Android emulators and compatible Intel-based devices | 1.0.19 | 100.46 | [`cocce-1.0.19-x86_64.apk`](https://github.com/Hilpolith/COCCE-APP-RELEASES/releases/download/v1.0.19/cocce-1.0.19-x86_64.apk) |
+| **ARM64** (recommended) | Most newer 64-bit Android phones and tablets | 1.0.20 | 106.30 | [`cocce-1.0.20-arm64.apk`](https://github.com/Hilpolith/COCCE-APP-RELEASES/releases/download/v1.0.20/cocce-1.0.20-arm64.apk) |
+| **Universal** | Supported Android devices; easiest if unsure (larger download) | 1.0.20 | 204.43 | [`cocce-1.0.20-universal.apk`](https://github.com/Hilpolith/COCCE-APP-RELEASES/releases/download/v1.0.20/cocce-1.0.20-universal.apk) |
+| **ARMv7** (32-bit) | Older 32-bit ARM Android devices | 1.0.20 | 123.80 | [`cocce-1.0.20-armv7.apk`](https://github.com/Hilpolith/COCCE-APP-RELEASES/releases/download/v1.0.20/cocce-1.0.20-armv7.apk) |
+| **x86_64** | Android emulators and compatible Intel-based devices | 1.0.20 | 101.20 | [`cocce-1.0.20-x86_64.apk`](https://github.com/Hilpolith/COCCE-APP-RELEASES/releases/download/v1.0.20/cocce-1.0.20-x86_64.apk) |
 
 Requirements: **Android 7.0 (API 24) or newer**. Package: `com.cocce.cocce_super_app`.
 
 ## Verify a download
 
-Expected SHA-256 checksums for the four v1.0.19 APKs:
+Expected SHA-256 checksums for the four v1.0.20 APKs:
 
 ```text
-a2fb65951bc1a31d6ff95e9c3f45ef15644621d54476caf070694a9068efdb54  cocce-1.0.19-arm64.apk
-dc61e329a75f757a2521f925428f8ec999795a9b7f11c0e88266bc3b19ba6706  cocce-1.0.19-armv7.apk
-652017371dddbd950a04c282f114742f82d36b0d2c8d6f54c89d112fa9f49565  cocce-1.0.19-universal.apk
-fb4c5c736a642e39d1ec7a6a90860f483acc72aef80f60e843c2a6eb49cf2409  cocce-1.0.19-x86_64.apk
+dd9c210def321a9087ef658c51937d098924d6d113c94c2fffdc52aa55c46a2d  cocce-1.0.20-arm64.apk
+d42764d094ae06557e85f247540b03387ea0458f14f13f09ba843e8a535061af  cocce-1.0.20-armv7.apk
+56c04d746b42964a87dc1df9c7c0cdbb9649ed81aab93dad04b46742075a52e0  cocce-1.0.20-universal.apk
+d838365d1068c0222741083701ac189b98f8e2910c2fdb96aa9873460dbd9c91  cocce-1.0.20-x86_64.apk
 ```
 
-All four APKs use the same release certificate:
+All four APKs use the same release certificate as v1.0.19:
 
 ```text
 Owner : CN=Cocce Super App, OU=Mobile, O=Cocce, L=City, ST=State, C=US
