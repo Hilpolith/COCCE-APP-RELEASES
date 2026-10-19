@@ -1,59 +1,48 @@
 # COCCE — Android releases
 
-![Latest release](https://img.shields.io/badge/COCCE-1.0.21-ED0747?style=for-the-badge&logo=android&logoColor=white)
-![Free download](https://img.shields.io/badge/Download-Free-16A34A?style=for-the-badge)
-![Android 7.0+](https://img.shields.io/badge/Android-7.0%2B-0EA5E9?style=for-the-badge&logo=android&logoColor=white)
+![COCCE 1.0.22](https://img.shields.io/badge/COCCE-1.0.22-ED0747?style=for-the-badge) ![Signed Android release](https://img.shields.io/badge/Android-Signed%20release-16A34A?style=for-the-badge)
 
-COCCE brings videos, stories, chat, shopping and creator tools together in one app. This repository is for **signed Android downloads**; the app’s source code remains private.
+### ![A warmer welcome](https://img.shields.io/badge/A%20warmer%20welcome-ED0747?style=flat-square)
+Meet animated characters as you sign in, create an account, recover a password and get started. Onboarding adds gradient progress and gentle feedback, with reduced-motion support.
 
-## What’s new in COCCE 1.0.21
+### ![Smoother video recovery](https://img.shields.io/badge/Smoother%20video%20recovery-665BCA?style=flat-square)
+Your visible cached video stays in place while fresh recommendations arrive. Failed playback can retry with a fresh source and recover the position of the same video.
 
-Make COCCE yours before you sign in. The Welcome screen now has matching, easy-to-find buttons to choose your language and app colors.
+### ![More reliable offline chats](https://img.shields.io/badge/More%20reliable%20offline%20chats-087F8C?style=flat-square)
+Saved chats and groups can appear without waiting for a profile. Cached lists survive refresh errors and refresh on reconnection, with separate caches for each account.
 
-Earlier versions remain available and unchanged in [All releases](https://github.com/Hilpolith/COCCE-APP-RELEASES/releases), including [COCCE 1.0.20](https://github.com/Hilpolith/COCCE-APP-RELEASES/releases/tag/v1.0.20).
+All 24 app languages are preserved. Requires Android 7.0 or newer.
 
-Built from private source commit [`dc3dddff8762586d3adf13570e00f3bdcd56ca65`](https://github.com/Hilpolith/COCCE_Super_App/commit/dc3dddff8762586d3adf13570e00f3bdcd56ca65).
+## Choose your download
+**ARM64** is recommended for most newer phones. Choose **Universal** if you are unsure; it is larger. **ARMv7** is for older 32-bit ARM devices; **x86_64** is for compatible emulators/Intel devices.
 
-- Download page: [cocce-super-app-222ac.web.app](https://cocce-super-app-222ac.web.app)
-- Investor information: [cocce.vercel.app](https://cocce.vercel.app/)
-- Privacy policy: [Read the COCCE Privacy Policy](https://cocce-super-app-222ac.web.app/privacy-policy.html)
-- All releases: [Browse earlier and current versions](https://github.com/Hilpolith/COCCE-APP-RELEASES/releases)
-- Example COCCE TV link: [Open a COCCE TV schedule](https://cocce-super-app-222ac.web.app/tv/imperium/7431d91f-cc68-45c2-9969-98ec5f929197)
+| Build | Size (MiB) | Download |
+| --- | ---: | --- |
+| arm64 | 106.32 | [Download APK](https://github.com/Hilpolith/COCCE-APP-RELEASES/releases/download/v1.0.22/cocce-1.0.22-arm64.apk) |
+| universal | 236.52 | [Download APK](https://github.com/Hilpolith/COCCE-APP-RELEASES/releases/download/v1.0.22/cocce-1.0.22-universal.apk) |
+| armv7 | 123.82 | [Download APK](https://github.com/Hilpolith/COCCE-APP-RELEASES/releases/download/v1.0.22/cocce-1.0.22-armv7.apk) |
+| x86_64 | 101.22 | [Download APK](https://github.com/Hilpolith/COCCE-APP-RELEASES/releases/download/v1.0.22/cocce-1.0.22-x86_64.apk) |
+
+## Validation and important limits
+All 41 combined app regression tests passed. All four APKs passed archive integrity, Android signing verification and signing-certificate matching against the trusted website association. Package: com.cocce.cocce_super_app.
+
+No physical-device test was run. Native video playback and transition audio remain unverified.
+
+Built from private source base `39da95515f70156c172de81d8e4a7fec004168b1` plus local app changes. App changes remain uncommitted and unpushed. Campaign automation is not part of this release, and no production campaign data or functions were changed.
+
+[Download website](https://cocce-super-app-222ac.web.app/) · [Investor information](https://cocce.vercel.app/) · [All earlier releases](https://github.com/Hilpolith/COCCE-APP-RELEASES/releases)
+
+Earlier versions and their assets remain available unchanged. Download RELEASE_NOTES.html for the standalone colored-text edition, or SHA256SUMS.txt to verify files.
+
+## SHA-256
+```text
+94ae54d426d7657a8a947998e42fc9930dbaf3c44f4bf2807181598dc777ae04  cocce-1.0.22-arm64.apk
+563f6293851b2028bd1ea2f3add9b1e1a27e83cb9d2418c71f0d788af79deb4b  cocce-1.0.22-universal.apk
+350dc125a01b35d62e8527948dfd50a58224584a66217ddc4cb2eaeaa7dd79d7  cocce-1.0.22-armv7.apk
+a3aee75e58fcb878c5b4b41776b7d716d3e67ba73774e9321490a34b6884cd9f  cocce-1.0.22-x86_64.apk
+```
 
 ---
-
-## Download COCCE 1.0.21
-
-Choose the download that best fits your device. **Most newer Android phones use ARM64.** If you are unsure, choose **Universal**; it is larger but includes every available device type.
-
-| Download | For | Version | Size (MiB) | Get COCCE |
-| --- | --- | ---: | ---: | --- |
-| **ARM64** (recommended) | Most newer 64-bit Android phones and tablets | 1.0.21 | 106.30 | [Download ARM64](https://github.com/Hilpolith/COCCE-APP-RELEASES/releases/download/v1.0.21/cocce-1.0.21-arm64.apk) |
-| **Universal** | The simplest choice if you are not sure which build to use | 1.0.21 | 236.45 | [Download Universal](https://github.com/Hilpolith/COCCE-APP-RELEASES/releases/download/v1.0.21/cocce-1.0.21-universal.apk) |
-| **ARMv7** (32-bit) | Older 32-bit ARM Android phones and tablets | 1.0.21 | 123.80 | [Download ARMv7](https://github.com/Hilpolith/COCCE-APP-RELEASES/releases/download/v1.0.21/cocce-1.0.21-armv7.apk) |
-| **x86_64** | Android emulators and compatible Intel-based devices | 1.0.21 | 101.20 | [Download x86_64](https://github.com/Hilpolith/COCCE-APP-RELEASES/releases/download/v1.0.21/cocce-1.0.21-x86_64.apk) |
-
-Requires **Android 7.0 or newer**. COCCE appears on your device as `com.cocce.cocce_super_app`.
-
-### Check a downloaded file (optional)
-
-These SHA-256 values let advanced users confirm that a download matches the published file:
-
-```text
-d0dc422d67d271a3e73259d22eb6c693644a4a3b56e9473a01616e7273527172  cocce-1.0.21-arm64.apk
-899283da8345a49dafd4dc21e9a2eb985845534099d284c2ece040d502f4c794  cocce-1.0.21-armv7.apk
-a16a4a86673422274cc670155a2a3b4b60a456d980e689bec5e87b6642c17ef9  cocce-1.0.21-universal.apk
-1bce24b019bf362d74333a19f50c4d1b56171367ae0fbe3d6cffff86e0f89170  cocce-1.0.21-x86_64.apk
-```
-
-All four downloads use the same release certificate as earlier COCCE versions:
-
-```text
-Owner : CN=Cocce Super App, OU=Mobile, O=Cocce, L=City, ST=State, C=US
-SHA-256: 63:B3:BA:18:BB:79:03:70:62:33:30:B7:75:73:32:69:B4:CC:28:3A:1C:E4:BE:25:A9:63:8F:3B:77:19:CE:F6
-```
-
-The Android App Links association at [`.well-known/assetlinks.json`](https://cocce-super-app-222ac.web.app/.well-known/assetlinks.json) recognizes this package and release certificate.
 
 ## Share a COCCE link
 
@@ -72,3 +61,5 @@ Supported link types include `video`, `feed`, `product`, `profile`, `creator`, `
 COCCE is owned and operated by HILPOLITH PHILLIP ROTHSCHILD. For support or privacy requests, email **coccesuperapp@gmail.com**.
 
 Source code is **not** published here. Please do not open issues asking for it.
+
+All downloads use the established COCCE signing certificate recognized by the website Android App Links association.
