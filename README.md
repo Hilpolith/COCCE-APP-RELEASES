@@ -1,75 +1,50 @@
-# COCCE Super App — create, share, shop & earn
+# COCCE — Android releases
 
-![COCCE 1.0.24](https://img.shields.io/badge/COCCE%201.0.24-ED0747?style=for-the-badge) ![Free Android download](https://img.shields.io/badge/Free%20Android%20download-167D36?style=for-the-badge) ![24 languages](https://img.shields.io/badge/24%20languages-5363BA?style=for-the-badge)
+![COCCE 1.0.25](https://img.shields.io/badge/COCCE-1.0.25-ED0747?style=for-the-badge) ![Android](https://img.shields.io/badge/Android-Ready%20to%20download-16A34A?style=for-the-badge)
 
-COCCE brings videos, stories, chat, shopping and creator tools together in one app. Discover something you love, share something of your own, and support the people behind it.
+### ![Keep your place](https://img.shields.io/badge/Keep%20your%20place-087F8C?style=flat-square)
+Come back to Feed or Shop and continue with the video or item you were viewing, instead of being sent back to the beginning.
 
-**[Explore COCCE & download](https://cocce-super-app-222ac.web.app/) · [All releases](https://github.com/Hilpolith/COCCE-APP-RELEASES/releases)**
+### ![Smoother videos](https://img.shields.io/badge/Smoother%20videos-9333EA?style=flat-square)
+Videos can get moving again more smoothly. If a video gets stuck, COCCE keeps its last picture visible while trying to bring it back, rather than clearing it straight away.
 
-## What you can do with COCCE
+### ![You stay in control](https://img.shields.io/badge/You%20stay%20in%20control-EA580C?style=flat-square)
+Recovery attempts stop when you swipe away, pause, switch apps or leave the page.
 
-### ![COCCE Studio for Creators](https://img.shields.io/badge/COCCE%20Studio%20for%20Creators-A73780?style=for-the-badge)
+All 24 app languages are still included. Android 7.0 or newer is required.
 
-Your creator space inside COCCE Super App, with tools and insights to help you create and grow.
+## Choose your download
+**Most newer phones:** choose ARM64. **Not sure?** choose Universal. ARMv7 is for older 32-bit ARM phones; x86_64 is for compatible Intel devices and emulators.
 
-### ![COCCE BEAUTYCAM](https://img.shields.io/badge/COCCE%20BEAUTYCAM-326BA8?style=for-the-badge)
-
-Make your photos and videos your own with COCCE’s built-in beauty camera.
-
-### ![Shops & shop management](https://img.shields.io/badge/Shops%20%26%20shop%20management-287B69?style=for-the-badge)
-
-Discover products in Shop, or run your own shop and manage your products inside COCCE.
-
-### ![VIP verification](https://img.shields.io/badge/VIP%20verification-8C6500?style=for-the-badge)
-
-<img src="assets/vip-shield.svg" alt="COCCE VIP badge: a gold shield with a check inside" width="42" height="42">
-
-Look for COCCE’s gold shield with a check inside: the VIP verification badge used in the app.
-
-### ![ORIGIN CORE AI](https://img.shields.io/badge/ORIGIN%20CORE%20AI-6553AA?style=for-the-badge)
-
-COCCE’s AI recommendation system helps you discover videos and products matched to your interests.
-
-### ![Boost videos & products](https://img.shields.io/badge/Boost%20videos%20%26%20products-B54716?style=for-the-badge)
-
-Pay with COCCE Coins to promote your videos and products for more visibility. Views and results can vary.
-
-### ![Gifts that reward creators](https://img.shields.io/badge/Gifts%20that%20reward%20creators-A73764?style=for-the-badge)
-
-Viewers can gift COCCE Coins to Feed videos and Shop products, helping creators earn coins from the content and products they share.
-
-COCCE Studio is part of the Super App. You can also [download the separate COCCE Creators app](https://github.com/Hilpolith/COCCE-CREATORS-RELEASES/releases/latest).
-
-## New in version 1.0.24
-
-Your chosen welcome photo now appears neatly rounded and centered. All 24 app languages are still available.
-
-## Download COCCE for Android
-
-Requires **Android 7.0 or newer**. Choose **Most newer phones** for most modern Android devices. If you are not sure, choose **All-in-one**.
-
-| Choose your device | File size | Download |
+| Download | Size (MiB) | Get the app |
 | --- | ---: | --- |
-| **Most newer phones (ARM64)** | 106.33 MiB | [Download for newer phones](https://github.com/Hilpolith/COCCE-APP-RELEASES/releases/download/v1.0.24/cocce-1.0.24-arm64.apk) |
-| **All-in-one (Universal)** | 236.56 MiB | [Download all-in-one](https://github.com/Hilpolith/COCCE-APP-RELEASES/releases/download/v1.0.24/cocce-1.0.24-universal.apk) |
-| **Older 32-bit phones (ARMv7)** | 123.84 MiB | [Download for older phones](https://github.com/Hilpolith/COCCE-APP-RELEASES/releases/download/v1.0.24/cocce-1.0.24-armv7.apk) |
-| **Compatible Intel devices & emulators (x86_64)** | 101.24 MiB | [Download x86_64](https://github.com/Hilpolith/COCCE-APP-RELEASES/releases/download/v1.0.24/cocce-1.0.24-x86_64.apk) |
+| arm64 | 106.34 | [Download APK](https://github.com/Hilpolith/COCCE-APP-RELEASES/releases/download/v1.0.25/cocce-1.0.25-arm64.apk) |
+| universal | 236.58 | [Download APK](https://github.com/Hilpolith/COCCE-APP-RELEASES/releases/download/v1.0.25/cocce-1.0.25-universal.apk) |
+| armv7 | 123.84 | [Download APK](https://github.com/Hilpolith/COCCE-APP-RELEASES/releases/download/v1.0.25/cocce-1.0.25-armv7.apk) |
+| x86_64 | 101.24 | [Download APK](https://github.com/Hilpolith/COCCE-APP-RELEASES/releases/download/v1.0.25/cocce-1.0.25-x86_64.apk) |
 
-## Install in three steps
+## What was checked
+351 automated app tests passed. All four downloads passed signing, version and file checks. **Playback has not yet been tested on a physical phone.**
 
-1. Download the file that suits your phone.
-2. Open it. If Android asks, allow **Install unknown apps** for your browser or file manager for this installation.
-3. Tap **Install**, then find **COCCE** in your app list. You can turn the extra install permission off afterward.
+[Download website](https://cocce-super-app-222ac.web.app/) · [Investor information](https://cocce.vercel.app/) · [All earlier releases](https://github.com/Hilpolith/COCCE-APP-RELEASES/releases)
 
-## More from COCCE
+Earlier versions and their downloads are unchanged. The download website keeps all 24 languages, existing features and partner links.
 
-- [COCCE download website](https://cocce-super-app-222ac.web.app/)
-- [COCCE Creators](https://github.com/Hilpolith/COCCE-CREATORS-RELEASES/releases/latest)
-- [COCCE RIDE](https://github.com/Hilpolith/COCCE-RIDE-RELEASES/releases/latest)
-- [Investor information](https://cocce.vercel.app/)
-- [President, Founder & Owner — HILPOLITH ROTHSCHILD](https://hilpolith-rothschild.vercel.app/)
-- [Privacy Policy](https://cocce-super-app-222ac.web.app/privacy-policy.html)
-- [All current and older releases](https://github.com/Hilpolith/COCCE-APP-RELEASES/releases)
+<details>
+<summary>File verification and build details</summary>
+
+Built from private app source commit `ab7d3a236ad27dfc5566020eb6f8ff3a82958224`. No backend, signing-key or service-account changes are included. Download SHA256SUMS.txt to check your APK; RELEASE_NOTES.html has the colorful, easy-to-read notes.
+
+SHA-256:
+```text
+5c9493d5928f1ac5686a88752a5368e7fb97e5c489cb66fbd82cc9e8f62fc1a2  cocce-1.0.25-arm64.apk
+c10485b39911674234ea7d2002044a8956cf272e7bdcaff93942984663120bf9  cocce-1.0.25-armv7.apk
+5bc6be8f94c1f5127b1781a81ed5e0ae8c40b06e6f4a0ac24c41ae46383585da  cocce-1.0.25-x86_64.apk
+e2bc88ed0b0f3552680338ddca83a1e7bedd5243207e8f39e9bed536871f6d01  cocce-1.0.25-universal.apk
+```
+</details>
+
+---
 
 ## Share a COCCE link
 
@@ -90,3 +65,5 @@ a5816d65427f231fb3c6a5b2e4da87f1340ab10aa2a6e8e549f79f152d650b3d  cocce-1.0.24-a
 </details>
 
 COCCE is owned and operated by HILPOLITH PHILLIP ROTHSCHILD. For COCCE support or privacy requests, email **coccesuperapp@gmail.com**. This public repository contains downloads and information, not the private app source code.
+
+All downloads use the established COCCE signing certificate recognized by the website Android App Links association.
