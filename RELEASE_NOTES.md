@@ -1,3 +1,48 @@
+# 🎉 COCCE for Android 1.0.28
+
+![COCCE — Create, Share, Shop & Earn](https://raw.githubusercontent.com/Hilpolith/COCCE-APP-RELEASES/main/assets/cocce-release-banner.png)
+
+[![Version 1.0.28](https://img.shields.io/badge/COCCE-1.0.28-9333EA?style=for-the-badge)](https://github.com/Hilpolith/COCCE-APP-RELEASES/releases/tag/v1.0.28)
+[![Android 7.0+](https://img.shields.io/badge/ANDROID-7.0%20OR%20NEWER-16A34A?style=for-the-badge)](https://github.com/Hilpolith/COCCE-APP-RELEASES/releases/tag/v1.0.28)
+[![24 languages](https://img.shields.io/badge/LANGUAGES-24-0891B2?style=for-the-badge)](https://cocce-super-app-222ac.web.app/)
+
+A smoother, clearer COCCE experience is here. Shared links are easier to open, current content stays visible while it refreshes, and COCCE TV admins can see when scheduling is in progress. All existing app features and all 24 app languages remain included.
+
+## What’s new
+
+- **Shared links are easier to open:** Links in shared messages can be tapped even when they are written without `https://`.
+- **Keep your place while things refresh:** Your Ads, messages and notifications stay on screen as new information loads.
+- **Clearer COCCE TV scheduling:** Admins see a progress message while adding the next program, with the current program list kept in view.
+
+## Pick the right download
+
+**Not sure which file fits your phone? Choose Universal.** Most newer Android phones use ARM64. ARMv7 is for older 32-bit ARM phones; x86_64 is for some Intel-based devices and Android emulators. Android 7.0 or newer is required.
+
+| Build | Best for | Size | Download |
+| --- | --- | ---: | --- |
+| **ARM64** (`arm64-v8a`) | Most newer Android phones and tablets | 106.47 MiB | [Download ARM64](https://github.com/Hilpolith/COCCE-APP-RELEASES/releases/download/v1.0.28/cocce-1.0.28-arm64.apk) |
+| **Universal** | If you are not sure which build fits your device | 204.92 MiB | [Download Universal](https://github.com/Hilpolith/COCCE-APP-RELEASES/releases/download/v1.0.28/cocce-1.0.28-universal.apk) |
+| **ARMv7** (`armeabi-v7a`) | Older 32-bit ARM phones and tablets | 123.98 MiB | [Download ARMv7](https://github.com/Hilpolith/COCCE-APP-RELEASES/releases/download/v1.0.28/cocce-1.0.28-armv7.apk) |
+| **x86_64** | Android emulators and some Intel-based devices | 101.38 MiB | [Download x86_64](https://github.com/Hilpolith/COCCE-APP-RELEASES/releases/download/v1.0.28/cocce-1.0.28-x86_64.apk) |
+
+After downloading, open the file and follow Android’s installation instructions. The [COCCE download website](https://cocce-super-app-222ac.web.app/) also includes the same four builds and language choices.
+
+<details>
+<summary>Optional: technical notes and verification</summary>
+
+### Verification
+
+- Package: `com.cocce.cocce_super_app`; version `1.0.28`; version code `2033`; minimum Android version 7.0 (SDK 24).
+- The split APKs contain `arm64-v8a`, `armeabi-v7a` and `x86_64` respectively. Universal contains all three.
+- All four APK signatures and ZIP alignment checks passed. The signing certificate matches a fingerprint already published for COCCE App Links on the download site.
+- Four focused Flutter test files passed (**9 tests**), covering shared-link recognition, retained refresh content, notification loading state and COCCE TV Add Next progress/error handling. The full Flutter suite was not run for this release review.
+
+See [`SHA256SUMS.txt`](SHA256SUMS.txt) to verify your download.
+
+</details>
+
+---
+
 # 🎉 COCCE for Android 1.0.27
 
 ![COCCE — Create, Share, Shop & Earn](https://raw.githubusercontent.com/Hilpolith/COCCE-APP-RELEASES/main/assets/cocce-release-banner.png)
