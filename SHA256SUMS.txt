@@ -1,8 +1,10 @@
 # COCCE 1.0.28 (latest)
-ce392520fed645050ecec83d5b4856dff0d9a15339573c0758fbab67f5eb99ac  cocce-1.0.28-arm64.apk
-81a635afb6916e5961a15eeafda65b1603547886ed6e7ce3df022730cb96cf27  cocce-1.0.28-universal.apk
-ef7c1c876772f7d86db8b09dc1665da327adbb131c55102f9e5a4dd719b94d2a  cocce-1.0.28-armv7.apk
-b519246cf7189d0b7a3d0ad2400b87dfe7c938729ee6299fe18b46a87d9141a1  cocce-1.0.28-x86_64.apk
+# All four APK variants refreshed from app main commit 49e88f7.
+# Version codes: ARM64 6037, Universal 4037, ARMv7 5037, x86_64 8037.
+d0f3bbc00440f82b0e4fbe4ec8ba18259061105a7e8eb58ae9444b8500eb3fae  cocce-1.0.28-arm64.apk
+b9888b5a07fc69ae786de84dd5c2b53ff9255c2b4473ac31fce7992701c9089f  cocce-1.0.28-universal.apk
+dfc4eb065e263c63b6af7601c0d1838b51647d8c0eddc53e68680641c55f3edd  cocce-1.0.28-armv7.apk
+70f56200bcf5b9d27a2e7180f2701c5ab6fc3abd7ebfee037b88aad32ac6724a  cocce-1.0.28-x86_64.apk
 
 # COCCE 1.0.27 (retained)
 213d9880ec8c26699ea4b8c9e3be24d28e8d6d0b08b1087532575e873f736f5e  cocce-1.0.27-arm64.apk
